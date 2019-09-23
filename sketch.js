@@ -48,16 +48,19 @@ textSize(windowHeight/5);
 if (frameCount >= 340 && frameCount < 400) {
   background(8,51,73)
     strokeWeight(5)
-    text("3", width/2-10, height/2);
+    textAlign(CENTER,CENTER)
+    text("3", width/2, height/2);
   }
-  else if (frameCount >=400 && frameCount < 460) {
+  else if (frameCount >= 400 && frameCount < 460) {
     background(8,51,73)
     strokeWeight(5)
-    text("2", width/2-10, height/2);
+    textAlign(CENTER,CENTER)
+    text("2", width/2, height/2);
   }
   else if (frameCount >= 460 && frameCount < 520) {
     background(8,51,73)
     strokeWeight(5)
+    textAlign(CENTER,CENTER)
     text("1", width/2, height/2);
   }
 
